@@ -9,6 +9,8 @@ defmodule InventoryWeb.Router do
     pipe_through :api
 
     get "/", WelcomeController, :index
+
+    post "/customers", CustomersController, :create
   end
 
   # Enables LiveDashboard only for development

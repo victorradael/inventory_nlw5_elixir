@@ -1,4 +1,4 @@
-defmodule Inventory.WelcomeController do
+defmodule InventoryWeb.WelcomeController do
   use InventoryWeb, :controller
 
   alias Inventory.Welcomer
